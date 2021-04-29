@@ -22,8 +22,9 @@ body {
 .pattern {
   position: absolute;
   opacity: 50%;
-  margin-left: -37.3rem;
   z-index: 0;
+  left: 0;
+  margin-left: 12.4rem;
 }
 
 h1 {

@@ -128,5 +128,7 @@ margin-left: 0.5rem;}
 #validate {width: 70px;
     margin-left: -4.4rem;}
 
+.error-img {background: url(images/icon-error.svg) no-repeat right 5rem center;}
+
 footer {margin-bottom: -9rem;}
 }

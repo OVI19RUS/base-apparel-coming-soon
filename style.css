@@ -56,7 +56,7 @@ margin-left: -5.5rem;
 
 .good {
     background: linear-gradient(to right, hsl(0, 80%, 86%) , hsl(0, 74%, 74%));
-    box-shadow: 0px 6px 10px hsl(0, 6%, 24%);
+    box-shadow: 3px 15px 40px 0 hsl(0, 36%, 70%);
     border: none;
     cursor: pointer;
   outline: none;
@@ -66,7 +66,7 @@ margin-left: -5.5rem;
 
 .error {
     background: hsl(0, 80%, 86%);
-    box-shadow: 0px 8px 28px hsl(0, 6%, 24%);
+    box-shadow: 0px 18px 16px hsl(0, 36%, 70%);
 }
 
 .Mobile {display: none;}

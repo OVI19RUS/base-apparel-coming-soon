@@ -14,12 +14,10 @@ body {
 }
 .right {
   position: relative;
-  z-index: 1;
 }
 
 .left {
   padding: 5% 17% 10% 10%;
-  z-index: 1;
   position: relative;
 }
 
@@ -29,7 +27,6 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 0;
 }
 
 h1 {
@@ -53,6 +50,7 @@ h1 {
 }
 
 #email {
+  position: relative;
   border-radius: 50px;
   border: hsl(0, 6%, 24%) solid 1px;
   width: 427px;
@@ -61,6 +59,7 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   color: hsl(0, 36%, 70%);
+  z-index: 0;
 }
 
 .left input[type="email"] {
@@ -73,6 +72,7 @@ h1 {
   height: 54px;
   border-radius: 50px;
   margin-left: -5.5rem;
+  cursor: pointer;
 }
 
 .good {
@@ -90,6 +90,7 @@ h1 {
 .error {
   background: hsl(0, 80%, 86%);
   box-shadow: 0px 18px 16px hsl(0, 36%, 70%);
+  border: hsl(0, 36%, 70%) solid 1px;
 }
 
 .Mobile {
@@ -113,9 +114,9 @@ footer {
   display: none;
 }
 
-h4 {
-  padding-left: 25px;
+#result {
   font-size: 16px;
+  padding-left: 25px;
 }
 
 @media (max-width: 550px) {
@@ -126,6 +127,7 @@ h4 {
   .container {
     flex-wrap: wrap;
     max-width: 375px;
+    margin: 0;
   }
 
   .Adding {
@@ -160,6 +162,7 @@ h4 {
 
   .left {
     text-align: center;
+    padding: 5% 0 10% 0;
   }
 
   h1 {

@@ -128,7 +128,7 @@ footer {
 
   .container {
     flex-wrap: wrap;
-    max-width: 375px;
+    max-width: 100%;
     margin: 0;
   }
 
@@ -156,10 +156,12 @@ footer {
 
   .Mobile {
     display: grid;
+    width: 100%;
   }
 
   .right {
     order: -1;
+    width: 100%;
   }
 
   .left {

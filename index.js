@@ -14,7 +14,7 @@ function validate() {
   } else {
     $result.text("Please provide a valid email");
     $result.css("color", "hsl(0, 93%, 68%)");
-    $('#email').css('border', 'hsl(0, 93%, 68%) solid 3px')
+    $('#email').css('border', 'hsl(0, 93%, 68%) solid 1px')
     $('#validate').removeClass('good');
     $('#validate').addClass('error');
     $('#email').addClass('error-img')
